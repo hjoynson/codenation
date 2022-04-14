@@ -67,8 +67,102 @@ else
 let num7 = Math.random();Math.floor((Math.random() * 30) + 1);
 console.log(num7)
 
+for (let i = 1; i < 7; i++){
+   let num7 = Math.floor(Math.random()*30)   
+   if(num7 % 7 == 0)
+   console.log('num7' - "divisible by 7")
+ else 
+   console.log('num7' - "not divisible by 7")
+}
+
+let num8= Math.random();Math.floor((Math.random() * 30) + 1);
+console.log(num8)
+
+for (let i = 1; i < 7; i++){
+    let num8 = Math.floor(Math.random()*30)   
+    if(num8 % 7 == 0)
+    console.log('num7' - "divisible by 7")
+  else 
+    console.log('num7' - "not divisible by 7")
+ }
+
+let num9 = Math.random();Math.floor((Math.random() * 30) + 1);
+console.log(num9)
+
+for (let i = 1; i < 7; i++){
+    let num9 = Math.floor(Math.random()*30)   
+    if(num9 % 7 == 0)
+    console.log('num9' - "divisible by 7")
+  else 
+    console.log('num9' - "not divisible by 7")
+ }
+
+let num10 = Math.random();Math.floor((Math.random() * 30) + 1);
+console.log(num10)
+
+for (let i = 1; i < 7; i++){
+    let num10 = Math.floor(Math.random()*30)   
+    if(num10 % 7 == 0)
+{    console.log('num10' - "divisible by 7") }
+  else 
+    console.log('num10' - "not divisible by 7")
+ }
+
+let num11= Math.random();Math.floor((Math.random() * 30) + 1);
+console.log(num11)
+
+for (let i = 1; i < 7; i++){
+    let num11 = Math.floor(Math.random()*30)   
+    if(num11 % 7 == 0)
+   { console.log('num11' - "divisible by 7")
+     }  else 
+    console.log('num11' - "not divisible by 7")
+ }
+
+let num12 = Math.random();Math.floor((Math.random() * 30) + 1);
+console.log(num12)
+
+for (let i = 1; i < 7; i++){
+    let num12 = Math.floor(Math.random()*30);   
+    if(num12 % 7 == 0)
+{  console.log('num12' - "divisible by 7")
+  }  else 
+    console.log('num12' - "not divisible by 7")
+ }
+
  //--------------------------------------------------------------
 // Activity 6
 
-bobsFollowers & hannahsFollowers
-4 names as String
+let followers =[
+    "bobsFollowers",
+    "hannahsFollowers",]
+    {
+        console.log(followers)
+    }
+
+    console.log("\n :: activity:loops 06 :: \n");
+
+const bobsFollowers = [
+    "Joe"
+    , "Michael"
+    , "Elizabeth"
+    , "Cruela"
+]
+const hannahsFollowers = [
+    "Aaron"
+    , "Elizabeth"
+    , "Alex"
+    , "Joe"
+]
+
+for(let fb of bobsFollowers)
+    for(let fh of hannahsFollowers)
+        if(fb.toLowerCase() == fh.toLowerCase())
+            console.log(`Common follower: ${fb}`);
+
+    
+     //--------------------------------------------------------------
+// Activity 7
+
+
+  
