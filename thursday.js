@@ -1,10 +1,17 @@
-let cards = ["Diamond", "Spade", "Heart", "Club"];
-let currentCard = "Club"
+let person = {
+    name: "Hannah",
+    age: 30,
+  };
+  
+  console.log(Object.keys(person));
 
-while(currentCard != "Spade"){
-    console.log(currentCard);
-    currentCard = cards[Math.floor(Math.random()*4)]
-
-}
-
-console.log(currentCard);
+  let person = {
+    name: "Ben",
+    username: "codeisCool",
+    age: 24,
+  }
+  
+  person.games = ["Hunt: Showdown", "SoT", "Halo"]
+  
+  console.log(person)
+  
