@@ -1,5 +1,5 @@
 //-----------------------------------------------
-console.log("\n :: activity:functions 1 :: \n");
+console.log("\n activity 1 \n");
 
 const factorial = (n) => {
     if ( (n===0) || (n==1) ){
@@ -17,7 +17,7 @@ console.log( factorial(5) );
 
 
 //-----------------------------------------------
-console.log("\n :: activity:functions 2 :: \n");
+console.log("\n activity 2 \n");
 
 let orderCount = 0;
 
@@ -32,7 +32,7 @@ takeOrder( 'ham/pineapple/peperoni/mushroom'.split('/'), 'thin crust' )
 
 
 //-----------------------------------------------
-console.log("\n :: activity:functions 3 :: \n");
+console.log("\n activity 3 \n");
 
 let accountAmount = 300
 let accountPin = 'a123b'
@@ -59,7 +59,7 @@ bank_withdraw('a123b',330)
 
 
 //-----------------------------------------------
-console.log("\n :: activity:objects 0 :: \n");
+console.log("\n activity 4 \n");
 
 const alarmClock = {
     weekDays : ['monday','tuesday','wednesday','thursday','friday','saturday','sunday'],
@@ -99,7 +99,7 @@ console.log( alarmIsSet?`Alarm: alarm was set!`:'Alarm: alarm was not set!' );
 
 
 //-----------------------------------------------
-console.log("\n :: activity:objects 1 :: \n");
+console.log("\n activity 5 \n");
 
 let person ={
     name: 'Eduard',
@@ -121,7 +121,7 @@ person.sayHi()
 
 
 //-----------------------------------------------
-console.log("\n :: activity:objects 2 :: \n");
+console.log("\n activity 6 \n");
 
 const pet = {
     name: "Lili",
@@ -141,7 +141,7 @@ pet['drink']()
 
 
 //-----------------------------------------------
-console.log("\n :: activity:objects 3 :: \n");
+console.log("\n activity 7 \n");
 
 const coffeeShop = {
     branch: "Manchester",
@@ -198,7 +198,7 @@ const coffeeShop = {
 
     _getOrderFromList( listItems, internalMenu ){
 
-        let maxWidth = 
+        let maxWidth = ''
         let completeOrder = ''
         let totalAmount = 0
         for(it of listItems){
@@ -224,8 +224,4 @@ coffeeShop.mixedOrder('Fish And Chips, Coffee, Machiatto, Lemonade, Fries, expre
 
 
 //-----------------------------------------------
-console.log("\n :: experiments :: \n");
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
+
