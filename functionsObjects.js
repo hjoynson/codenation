@@ -102,8 +102,8 @@ console.log( alarmIsSet?`Alarm: alarm was set!`:'Alarm: alarm was not set!' );
 console.log("\n activity 5 \n");
 
 let person ={
-    name: 'Eduard',
-    age: 39,
+    name: 'Hannah',
+    age: 30,
     favSongs: [
         'In hell i\'ll be in good company', 
         'Nothing else maters', 
